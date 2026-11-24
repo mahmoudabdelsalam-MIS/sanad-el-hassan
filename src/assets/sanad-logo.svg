@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 79" fill="none">
+  <!-- Top left & right bronze bars -->
+  <rect x="0" y="0" width="36" height="16" fill="#9E7352" />
+  <rect x="64" y="0" width="36" height="16" fill="#9E7352" />
+
+  <!-- Top center dark pine-teal square -->
+  <rect x="42" y="0" width="16" height="16" fill="#0F3C36" />
+
+  <!-- Symmetrical double-U bronze body -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M0 24 H29 V40 H16 V49 A13 13 0 0 0 42 49 V24 H58 V49 A13 13 0 0 0 84 49 V40 H71 V24 H100 V49 A29 29 0 0 1 50 69 A29 29 0 0 1 0 49 Z"
+    fill="#9E7352"
+  />
+</svg>
