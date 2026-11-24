@@ -20,7 +20,6 @@ export default function HomeAchievementsPreview() {
       linkLabel="المزيد من التفاصيل"
       linkTo="/aboutUs"
       backgroundClass="bg-brand-cream"
-      showOffsetFrame
     />
   );
 }

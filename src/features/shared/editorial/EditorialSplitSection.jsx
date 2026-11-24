@@ -14,7 +14,6 @@ export default function EditorialSplitSection({
   linkTo = "/",
   highlights = [],
   backgroundClass = "bg-brand-cream",
-  showOffsetFrame = true,
 }) {
   return (
     <section
@@ -67,24 +66,15 @@ export default function EditorialSplitSection({
             )}
           </FadeIn>
 
-          {/* Left Column (RTL end): Static Editorial Image with Signature Offset Frame */}
+          {/* Left Column (RTL end): Clean Static Editorial Image */}
           <div className="lg:col-span-5">
-            <div className="relative mx-auto max-w-[480px] lg:max-w-none">
-              {showOffsetFrame && (
-                <div
-                  aria-hidden="true"
-                  className="hidden sm:block absolute -bottom-4 -left-4 w-[82%] h-[82%] rounded-2xl bg-brand-sand border border-brand-border/80"
-                />
-              )}
-
-              <div className="relative aspect-[16/11] w-full rounded-2xl overflow-hidden border border-brand-border shadow-[0_18px_40px_-16px_rgba(15,60,54,0.22)] bg-brand-surface">
-                <img
-                  src={image}
-                  alt={imageAlt || title}
-                  loading="lazy"
-                  className="w-full h-full object-cover object-center"
-                />
-              </div>
+            <div className="mx-auto max-w-[480px] lg:max-w-none aspect-[16/11] w-full rounded-2xl overflow-hidden border border-brand-border bg-brand-surface">
+              <img
+                src={image}
+                alt={imageAlt || title}
+                loading="lazy"
+                className="w-full h-full object-cover object-center"
+              />
             </div>
           </div>
         </div>

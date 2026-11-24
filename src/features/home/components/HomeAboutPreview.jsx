@@ -12,7 +12,6 @@ export default function HomeAboutPreview() {
       linkLabel="المزيد من التفاصيل"
       linkTo="/aboutUs"
       backgroundClass="bg-brand-cream"
-      showOffsetFrame
     />
   );
 }
